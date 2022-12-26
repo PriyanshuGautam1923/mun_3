@@ -1,0 +1,277 @@
+body {
+  background: rgb(4, 8, 19);
+}
+#sec-14bb {
+  background-color: rgb(4, 8, 19);
+  color: rgb(217, 181, 119);
+}
+#carousel_51e2 {
+  background-color: rgb(4, 8, 19);
+  color: rgb(217, 181, 119);
+}
+#sec-d233 {
+  background-color: rgb(4, 8, 19);
+  color: rgb(217, 181, 119);
+}
+#sec-a7d2 {
+  background-color: rgb(4, 8, 19);
+  color: rgb(217, 181, 119);
+}
+#sec-3e71 {
+  background-color: rgb(4, 8, 19);
+  color: rgb(217, 181, 119);
+}
+#sec-bf65 {
+  background: rgb(4, 8, 19);
+  color: rgb(217, 181, 119);
+}
+#sec-634f {
+  background: rgb(4, 8, 19);
+  color: rgb(217, 181, 119);
+}
+#carousel_80b8 {
+  background: rgb(4, 8, 19);
+  color: rgb(217, 181, 119);
+}
+#carousel_9363 {
+  background: rgb(4, 8, 19);
+  color: rgb(217, 181, 119);
+}
+#sec-89e5 {
+  background: rgb(4, 8, 19);
+  color: rgb(217, 181, 119);
+}
+#sec-8c86 {
+  background: rgb(4, 8, 19);
+  color: rgb(217, 181, 119);
+}
+#custom-form {
+  border: 3px solid rgb(217, 181, 119);
+  border-radius: 20px;
+  padding: 20px;
+}
+#custom-form input {
+  border: 2px solid rgb(217, 181, 119);
+}
+#custom-form textarea {
+  border: 2px solid rgb(217, 181, 119);
+}
+#custom-btn {
+  background-color: rgb(217, 181, 119);
+  color: rgb(4, 8, 19);
+}
+.custom-About {
+  background-color: rgb(4, 8, 19);
+  color: rgb(217, 181, 119);
+}
+#sec-14bb > div > h1 {
+  margin-top: 0;
+}
+
+.btn-tour {
+  position: fixed;
+  z-index: 12;
+  top: 162px;
+  right: 0px;
+  background: rgb(232, 205, 134);
+  background: radial-gradient(
+    circle,
+    rgba(232, 205, 134, 1) 28%,
+    rgba(207, 171, 111, 1) 33%,
+    rgba(244, 215, 165, 1) 79%
+  );
+  font-size: 20px;
+  font-family: Roboto, sans-serif !important;
+  font-weight: 700;
+}
+.modal-custom {
+  max-width: 1000px;
+}
+#staticBackdrop {
+  padding-right: 0;
+}
+.custom-modal {
+  background-color: rgb(4, 8, 19);
+  color: rgb(217, 181, 119);
+  border: 3px solid rgb(217, 181, 119);
+}
+.modal-title {
+  font-weight: 900 !important;
+  color: white;
+}
+.modal-header {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+#modal-q {
+  font-size: 28px;
+  font-family: cursive;
+  font-style: italic;
+  color: white;
+}
+#modal-question {
+  color: white;
+}
+.modal-footer {
+  justify-content: center;
+}
+#btn-close {
+  background: rgb(217, 181, 119);
+  color: white;
+  font-weight: 500;
+  border: 2px solid rgb(217, 181, 119);
+}
+.modal-body::-webkit-scrollbar-thumb {
+  background: #900;
+}
+#exec_team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: rgb(4, 8, 19);
+}
+
+.exec_team_card {
+  height: fit-content;
+  width: 320px;
+  margin: 20px;
+  box-shadow: 0 3px 5px #000;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #222;
+}
+
+.exec_team_card .bg-image img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0%, 100% 70%, 45% 100%, 0 70%);
+}
+
+.exec_team_card .pic img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 10px solid #222;
+  margin-top: -90px;
+  position: relative;
+}
+.exec_team_card .info {
+  margin-bottom: 20px;
+}
+.exec_team_card .info h3 {
+  color: #f0f0f0;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.exec_team_card .info span {
+  font-size: 15px;
+  color: rgb(217 181 119);
+}
+
+.exec_team_card .info p {
+  font-size: 13px;
+  padding: 10px 20px;
+  color: #999;
+}
+
+.exec_team_card .info .icons a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(217, 181, 119);
+  margin-top: 20px;
+  padding: 0 5px;
+}
+
+.exec_team_card .info .icons a:hover {
+  color: #f0f0f0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.committee_cards {
+  background-color: rgb(4, 8, 19);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.committee_card {
+  box-sizing: border-box;
+  width: 45%;
+  position: relative;
+  box-shadow: 0 40px 60px -6px black;
+  margin-bottom: 5%;
+}
+
+.committee_card-title {
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-color: #6184a8;
+  padding: 2%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.committee_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  position: relative;
+}
+
+.committee_card-desc {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  font-weight: 700;
+  margin: 0;
+  height: 0;
+  top: 0;
+  opacity: 0;
+  padding: 0 30px;
+  background-color: rgb(232, 205, 134);
+  color: rgb(4, 8, 19);
+  overflow: auto;
+  transition: 0.5s ease;
+  box-sizing: border-box;
+}
+
+.committee_card:hover .committee_card-desc {
+  opacity: 1;
+  height: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .committee_card {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .committee_card-desc {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .committee_card-desc {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .committee_card-desc {
+    font-size: 11px;
+  }
+}
+#committee_link {
+  background-color: rgb(4, 8, 19);
+}

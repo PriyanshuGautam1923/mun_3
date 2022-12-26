@@ -1,0 +1,115 @@
+.cards_OurTeam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(4, 8, 19);
+}
+.cards_OurTeam .card_OurTeam {
+  max-width: 330px;
+  min-width: 290px;
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+}
+.card_OurTeam .thumb {
+  position: relative;
+  height: 380px;
+  background: rgb(217, 181, 119);
+  padding: 7px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.514);
+}
+.card_OurTeam .thumb img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.card_OurTeam .info {
+  margin-top: 10px;
+  text-align: center;
+}
+.card_OurTeam .info h2 {
+  color: rgb(217, 181, 119);
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.card_OurTeam .info span {
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(217, 181, 119);
+  text-transform: capitalize;
+}
+.card_OurTeam .thumb .social {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.card_OurTeam:hover .thumb .social {
+  visibility: visible;
+  opacity: 1;
+}
+
+.card_OurTeam .thumb .share-button {
+  position: absolute;
+  bottom: -20px;
+  right: 25px;
+  width: 45px;
+  height: 45px;
+  background: rgb(217, 181, 119);
+  border-radius: 5px;
+  border: 3px solid #fff;
+  transform: rotate(45deg);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.37);
+  z-index: 2;
+}
+
+.card_OurTeam .thumb .share-button i {
+  font-size: 18px;
+  transform: rotate(45deg);
+  transition: 0.3s;
+}
+.card_OurTeam .share-toggle:checked ~ .share-button i {
+  transform: rotate(180deg);
+}
+
+.card_OurTeam .share-icon {
+  position: absolute;
+  right: 27px;
+  bottom: -18px;
+  width: 40px;
+  height: 40px;
+  background: rgb(217, 181, 119);
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.5s ease;
+  transform: translateY(0) rotate(180deg);
+  z-index: 1;
+}
+.card_OurTeam .share-toggle {
+  display: none;
+}
+
+.card_OurTeam .share-toggle:checked ~ .share-icon:nth-child(3) {
+  transform: translateY(-75px) rotate(0);
+}
+
+.card_OurTeam .share-toggle:checked ~ .share-icon:nth-child(4) {
+  transform: translateY(-125px) rotate(0);
+}
+
+.card_OurTeam .share-toggle:checked ~ .share-icon:nth-child(5) {
+  transform: translateY(-175px) rotate(0);
+}
